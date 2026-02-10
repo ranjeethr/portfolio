@@ -461,6 +461,59 @@ footer {
     font-size: 0.95rem;
 }
 
+/* Leadership Highlights Section */
+.leadership-container {
+    max-width: 800px;
+    margin: 0 auto;
+    background: var(--card-bg);
+    padding: 3rem;
+    border-radius: 15px;
+    border: 1px solid rgba(255, 255, 255, 0.05);
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+}
+
+.leadership-list {
+    list-style: none;
+}
+
+.leadership-list li {
+    display: flex;
+    align-items: flex-start;
+    margin-bottom: 1.5rem;
+    font-size: 1.1rem;
+    color: var(--text-secondary);
+    line-height: 1.6;
+}
+
+.leadership-list li:last-child {
+    margin-bottom: 0;
+}
+
+.leadership-icon {
+    font-size: 1.5rem;
+    color: var(--accent-color);
+    margin-right: 1.5rem;
+    margin-top: 0.2rem;
+    min-width: 30px;
+    text-align: center;
+}
+
+/* Responsive adjustments for Leadership */
+@media (max-width: 768px) {
+    .leadership-container {
+        padding: 2rem;
+    }
+
+    .leadership-list li {
+        font-size: 1rem;
+    }
+
+    .leadership-icon {
+        font-size: 1.3rem;
+        margin-right: 1rem;
+    }
+}
+
 .project-link {
     display: inline-block;
     color: var(--accent-color);
